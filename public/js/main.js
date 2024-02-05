@@ -23,6 +23,7 @@ const currentDay = "Day : " + daysOfWeek[dayOfWeek];
 const formattedDate = "Date : " + (day1 < 10 ? '0' + day1 : day1) + '-' + (month < 10 ? '0' + month : month) + '-' + year;
 day.innerText = currentDay;
 Date_data.innerText = formattedDate
+
 const getinfo = async (e) => {
     e.preventDefault();
     let cityVal = cityname.value;
